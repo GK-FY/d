@@ -1,0 +1,44 @@
+[
+    {
+        "name": "1GB For 1Hour",
+        "price": "19",
+        "description": "\u26a1 Need data in a flash? Grab 1GB to use in 1 hour\u2014stream, download, and chat super fast!",
+        "background": "https:\/\/iili.io\/FVBn74V.jpg",
+        "once_per_day": true
+    },
+    {
+        "name": "250MBS For 24hours",
+        "price": "20",
+        "description": "\ud83d\udcf1 Perfect daily dose! 250MB to keep you scrolling and messaging all day long without worry.",
+        "background": "https:\/\/iili.io\/FVBn74V.jpg",
+        "once_per_day": true
+    },
+    {
+        "name": "1.5GB For 3Hours",
+        "price": "49",
+        "description": "\ud83d\ude80 Power up with 1.5GB in 3 hours\u2014ideal for binge streaming or heavy downloads on the go!",
+        "background": "https:\/\/iili.io\/FVBn74V.jpg",
+        "once_per_day": true
+    },
+    {
+        "name": "350MBS For 7Days",
+        "price": "50",
+        "description": "\ud83d\uddd3\ufe0f Weekly saver! Use 350MB anytime over 7 days\u2014great for steady, relaxed data use.",
+        "background": "https:\/\/iili.io\/FVBn74V.jpg",
+        "once_per_day": true
+    },
+    {
+        "name": "1.25GB Valid Till Midnight",
+        "price": "55",
+        "description": "\ud83c\udf19 Night surfer's dream! 1.25GB starting at midnight just for your late-night browsing & streaming.",
+        "background": "https:\/\/iili.io\/FVBn74V.jpg",
+        "once_per_day": true
+    },
+    {
+        "name": "1GB For 24hours",
+        "price": "1",
+        "description": "\ud83d\udd25 Full-day champion! 1GB valid for 24 hours\u2014your reliable all-day internet buddy.",
+        "background": "https:\/\/iili.io\/FVBn74V.jpg",
+        "once_per_day": true
+    }
+]
