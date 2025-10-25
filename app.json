@@ -1,0 +1,35 @@
+{
+  "name": "FY WhatsApp Airtime Bot",
+  "description": "WhatsApp bot for selling airtime in Kenya via M-Pesa with comprehensive admin dashboard",
+  "repository": "https://github.com/yourusername/fy-whatsapp-bot",
+  "keywords": ["whatsapp", "bot", "airtime", "mpesa", "kenya", "node"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "env": {
+    "ADMIN_WHATSAPP": {
+      "description": "Admin WhatsApp number in format 254XXXXXXXXX",
+      "value": ""
+    },
+    "ADMIN_UI_TOKEN": {
+      "description": "Strong password for admin dashboard access",
+      "value": ""
+    },
+    "PORT": {
+      "description": "Server port (Heroku will set this automatically)",
+      "value": "5000"
+    }
+  }
+}
